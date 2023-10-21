@@ -4,7 +4,7 @@
 
 CES'Eat is a modern food delivery application designed to simplify and enhance your dining experience. No need to worry about preparing meals, with CES'Eat, you can have a variety of delicious dishes delivered right to your doorstep. Explore the diverse range of menus from local restaurants and savor the pleasure of great dining from the comfort of your home.
 
-## Technologies Used
+## Authors
 
 - Frédéric SPATARO
 - Djayan DEMAISON
