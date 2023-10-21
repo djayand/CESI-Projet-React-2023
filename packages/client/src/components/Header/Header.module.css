@@ -1,0 +1,216 @@
+/*
+:root {
+    --cesi-color: #fbe216;
+}
+
+.header {
+    background-color: black;
+}
+
+.logoBox {
+    display: flex;
+    justify-content: center;
+    height: 4em;
+    background-color: transparent;
+}
+
+.logoImage {
+    height: 4em;
+}
+
+.email{
+    margin-bottom: 0.5em;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.email, .role {
+    width: fit-content;
+    border-radius: 1em;
+    color: white;
+    padding: 0.5em;
+}
+
+label{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first{
+    border-bottom: solid white;
+}
+.button{
+    border-bottom: solid white;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+.menu{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    max-height: 0;
+}
+
+li{
+    color: white;
+    margin-bottom: 1em;
+    list-style-type: none;
+    border-radius: 1em;
+    padding: 0.5em;
+    font-family: 'Roboto', sans-serif
+}
+
+.hambBox {
+    border-top: solid var(--cesi-color);
+    border-radius: 1em;
+}
+*/
+
+/*
+.hambBox .menuIcon {
+    padding: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+.hambBox .menuIcon .navIcon {
+    background: white;
+    display: block;
+    height: 0.1em;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 1.2em;
+}
+
+.hambBox .menuIcon .navIcon:before,
+.hambBox .menuIcon .navIcon:after {
+    background: white;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.hambBox .menuIcon .navIcon:before {
+    top: 5px;
+}
+
+.hambBox .menuIcon .navIcon:after {
+    top: -5px;
+}
+
+.hambBox .menuBtn {
+    display: none;
+}
+.hambBox .menuBtn:checked ~ .menu {
+    max-height: 25em;
+    transition: max-height 0.8s ease-in-out;
+}
+.hambBox .menuBtn:checked ~ .menuIcon .navIcon {
+    background: transparent;
+}
+.hambBox .menuBtn:checked ~ .menuIcon .navIcon:before {
+    transform: rotate(-45deg);
+}
+.hambBox .menuBtn:checked ~ .menuIcon .navIcon:after {
+    transform: rotate(45deg);
+}
+.hambBox .menuBtn:checked ~ .menuIcon:not(.steps) .navIcon:before,
+.hambBox .menuBtn:checked ~ .menuIcon:not(.steps) .navIcon:after {
+    top: 0;
+}
+
+*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.navbarlogo img {
+    height: 50px;
+}
+
+.navbarmenu a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbaruser {
+    font-size: 18px;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
+}
+
+.hamburger div {
+    width: 2rem;
+    height: 0.25rem;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+}
+
+.navbarmenu {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+}
+
+.navbarmenu.open {
+    transform: translateX(0);
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .navbarmenu {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #333;
+    }
+
+    .navbarmenu a {
+        margin: 10px 0;
+    }
+}

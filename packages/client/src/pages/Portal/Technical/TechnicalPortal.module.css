@@ -1,0 +1,32 @@
+.portal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+    font-size: 2em;
+    color: #333;
+}
+
+.menuButton {
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 1em;
+    padding: 0.25em 1em;
+    border: 0.25em solid #3c88fc;
+    border-radius: 3em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+    background: #3c88fc;
+}
+
+.menuButton:hover {
+    border-color: #1e5799;
+    background: #1e5799;
+}

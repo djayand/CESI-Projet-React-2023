@@ -1,0 +1,14 @@
+node_modules/
+=======
+# IDE
+/.vscode/
+/.idea/
+
+# Modules
+/node_modules/
+/*/dist/
+/*/*/dist/
+/*/*/*/dist/
+
+# Environment
+.env

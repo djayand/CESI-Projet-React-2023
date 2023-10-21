@@ -1,0 +1,59 @@
+@font-face {
+    font-family: gameover;
+    src: url("../../assets/Fonts/df-gameover-webfont.woff");
+}
+
+.container {
+    background: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.mess{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: gameover, serif;
+    font-size: 8em;
+    color: red;
+}
+
+.pic{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 6em;
+}
+img{
+    height: calc(100vh - 5em);
+    transition: transform 2s ease-in-out;
+}
+
+img:hover{
+    transform: rotate(7200deg);
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        height: fit-contentgit ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    img{
+        height: 35em;
+    }
+    .mess{
+        font-size: 2em;
+    }
+    .pic{
+        margin-left: 0;
+        margin-top: 2em;
+    }
+    img:hover{
+        transform: rotate(0deg);
+    }
+}

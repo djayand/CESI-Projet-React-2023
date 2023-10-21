@@ -1,0 +1,36 @@
+.container {
+    background-image: url("../../../../client/src/assets/img/BackLogin.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 6em - 4em);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #222222;
+    width: 80%;
+    box-shadow: 0.5em -0.5em 10em white, 0.5em -0.5em 10em black;
+    border-radius: 2em;
+}
+
+.inputs{
+    border-radius: 0.5em;
+    height: 2em;
+    width: 20em;
+}
+
+.value {
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        height: calc(100vh - 6em - 8em);
+    }
+}

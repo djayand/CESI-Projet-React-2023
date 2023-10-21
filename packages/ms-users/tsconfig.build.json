@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "../../../CESI Eats/ProjetA4_WebApp/MS-Users/api/node_modules",
+    "test", "dist", "**/*spec.ts"]
+}

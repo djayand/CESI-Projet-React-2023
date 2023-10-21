@@ -1,0 +1,71 @@
+/* MenuCatalog.module.css */
+.menu-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.menu-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    text-align: center;
+    width: 200px;
+    background-color: #f0f8ff;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.menu-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2a5d67;
+}
+
+.article-ids {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #4c4c4c;
+}
+
+.articles-title {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.article-info {
+    margin-bottom: 5px;
+}
+
+.total-price {
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #2a5d67;
+}
+
+.add-to-cart {
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.add-to-cart:hover {
+    background-color: #0069D9;
+    color: white;
+}

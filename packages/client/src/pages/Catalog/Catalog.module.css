@@ -1,0 +1,6 @@
+.catalogue-container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 20px;
+}
